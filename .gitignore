@@ -1,0 +1,53 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+*.user
+*.sln.iml
+
+# Rider
+.idea/
+*.sln.iml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node modules (for CEF/UI)
+node_modules/
+package-lock.json
+yarn.lock
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build output
+publish/
+dist/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
