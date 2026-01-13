@@ -63,8 +63,10 @@ class Program
 
         // Services
         services.AddScoped<IPlayerService, PlayerService>();
-        services.AddScoped<IVehicleService, VehicleService>();n        services.AddScoped<IPropertyService, PropertyService>();
+        services.AddScoped<IVehicleService, VehicleService>();
+        services.AddScoped<IPropertyService, PropertyService>();
         services.AddScoped<IBankService, BankService>();
+        services.AddScoped<IJobService, JobService>();
 
         // Game Server
         services.AddSingleton<GameServer>();
